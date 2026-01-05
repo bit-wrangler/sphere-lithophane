@@ -4,7 +4,11 @@ version = "0.1.0"
 description = "Generate moon lithophane STL files from NASA CGI Moon Kit images"
 requires-python = ">=3.10"
 dependencies = [
+    "manifold3d>=3.3.2",
+    "networkx>=3.4.2",
     "numpy>=1.24.0",
     "pillow>=10.0.0",
+    "scipy>=1.15.3",
+    "trimesh>=4.10.1",
 ]
 
